@@ -429,7 +429,7 @@ function generateQuote() {
 	// Add Author
 	twitLink += authorFormatted;
 
-  document.getElementById("tweet-quote").href = twitLink;
-  document.getElementById("text").innerText = QUOTES[randomNum].quote;
-  document.getElementById("author").innerText = QUOTES[randomNum].author;
+	document.getElementById("tweet-quote").href = twitLink;
+	document.getElementById("text").innerText = QUOTES[randomNum].quote;
+	document.getElementById("author").innerText = QUOTES[randomNum].author;
 }
