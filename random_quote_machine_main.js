@@ -417,12 +417,13 @@ function init() {
 
 function generateQuote() {
   let quoteSize = QUOTES.length;
-  let randomNum = Math.floor(Math.random() * quoteSize);
-
+	let randomNum = Math.floor(Math.random() * quoteSize);
+	
 	let quoteFormatted = QUOTES[randomNum].quote.replace(/ /g, '%20');
 	let authorFormatted = QUOTES[randomNum].author.replace(/ /g, '%20');
-	console.log(authorFormatted);
-  let twitLink= "https://twitter.com/intent/tweet?text=%22";
+
+	// Base Twit Link
+	let twitLink= "https://twitter.com/intent/tweet?text=%22";
 	// Add Quote
 	twitLink += quoteFormatted + "%22%20";
 	// Add Author
