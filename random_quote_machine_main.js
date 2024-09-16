@@ -416,7 +416,7 @@ function init() {
 }
 
 function generateQuote() {
-  let quoteSize = QUOTES.length;
+	let quoteSize = QUOTES.length;
 	let randomNum = Math.floor(Math.random() * quoteSize);
 	
 	let quoteFormatted = QUOTES[randomNum].quote.replace(/ /g, '%20');
