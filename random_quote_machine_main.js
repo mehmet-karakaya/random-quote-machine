@@ -161,7 +161,7 @@ const QUOTES = [
 },
 {
 	quote: "Certain things catch your eye, but pursue only those that capture the heart.",
-	author: " Ancient Indian Proverb"
+	author: "Ancient Indian Proverb"
 },
 {
 	quote: "Believe you can and you’re halfway there.",
@@ -273,7 +273,7 @@ const QUOTES = [
 },
 {
 	quote: "A person who never made a mistake never tried anything new.",
-	author: " Albert Einstein"
+	author: "Albert Einstein"
 },
 {
 	quote: "The person who says it cannot be done should not interrupt the person who is doing it.",
@@ -397,7 +397,7 @@ const QUOTES = [
 },
 {
 	quote: "Nothing is impossible, the word itself says, “I’m possible!”",
-	author: "–Audrey Hepburn"
+	author: "Audrey Hepburn"
 },
 {
 	quote: "The only way to do great work is to love what you do.",
